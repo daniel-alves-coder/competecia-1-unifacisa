@@ -1,4 +1,18 @@
-        salario = 10050.12345
+'''
+round()
+criar mais de uma variavel por linha
+operadores aritimeticos: resto da div..., potenciação
+juntar variaveis
+repetir conteudo de uma variavel, exemplo: =======
+len()
+.upper,.lower e .capitalize
+end=" " para mudar o final de print()
+.replace
+.format()
+'''
+
+
+salario = 10050.12345
 barra = '-' * 25
 barra2 = '=' * 25
 #print('O salario é %.2f' %salario)

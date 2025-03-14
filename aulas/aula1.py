@@ -1,3 +1,12 @@
+'''
+converter tipos primitivos, int, float, str
+round()
+None
+type, para ver o tipo da variavel
+bool, variavel tipo boolean = verdadeiro ou falso
+'''
+
+
 idade = int(input('qual a sua idade? '))# tranforma a string que veio de um input em inteiro
 
 nome = 'Daniel'

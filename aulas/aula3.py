@@ -1,3 +1,8 @@
+'''
+F-strings
+outra forma de calcular %
+'''
+
 #aula com base no conhecimento derivado de diversos lugares
 #Jornada do Dev
 
