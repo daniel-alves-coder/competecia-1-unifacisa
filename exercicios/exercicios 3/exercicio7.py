@@ -17,6 +17,7 @@ if saque >=10 and saque <=600:
     for notas in valores:
         quantidadeNotas = saque // notas
         saque = saque % notas
-        print(quantidadeNotas,"-",notas)
+        if quantidadeNotas >0 :
+            print(quantidadeNotas,"-",notas)
 
 else: pass
