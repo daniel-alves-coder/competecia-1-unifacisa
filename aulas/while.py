@@ -1,11 +1,12 @@
+#while significa enquanto
 #outra maneira de escrever o comando while
-
 while True:
     op = int(input("informa a opção: "))
     if  op == 4:
         break #significa quebrar
         #quando entrar no break, vai automaticamente sair do while
 
+#=========================================
 opcao = 1
 
 while opcao != 4:
