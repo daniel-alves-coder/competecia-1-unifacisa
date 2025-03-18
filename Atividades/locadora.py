@@ -1,36 +1,27 @@
-menu = ["Adicionar","Remover","Ver lista","sair"]
-numeros = 1
-opcao = 0
-filmes = [ ]
-def verFilmes(numeros):
-    print("ESTES SÃO OS FILMES ATUAIS")
-    for ite in filmes:
-        print(numeros,"-", ite)
-        numeros = numeros + 1
-    numeros
+'''
+opções
+1)Listar
+2)Adicionar
+3)Pesquisar
+4)Remover
+5)Substituir
+6)Sair
+'''
 
-while opcao != 4:
-    print("MENU - LOCADORA\n------------------")
-    for item in menu:
-        print(numeros, "-", item)
-        numeros = numeros + 1
-    numeros = 1
+opcao = 1
 
-    print("------------------")
-    opcao = int(input("Digite a Opção: "))
-    print("------------------")
+while opcao != 6:
+    print("\n1)Listar \n2)Adicionar \n3)Pesquisar \n4)Remover \n5)Substituir \n6)Sair")
+    opcao = int(input("Digite a opção"))
 
     if opcao == 1:
-        novoFilme = input("Digite o novo titulo: ")
-        filmes.append(novoFilme)
-    elif opcao == 2:
-        filmeRemover = int(input("Digite o código do título: "))
-        if 1 <= filmeRemover <= len(filmes):  # Verifica se está dentro do intervalo válido
-            filmes.pop(filmeRemover - 1)
-        else:
-            print("Código inválido!")
-    elif opcao == 3:
-        verFilmes(numeros)
-    elif opcao != 4:
-        print("Opção invalida")
 
+    elif opcao == 2:
+
+    elif opcao == 3:
+
+    elif opcao == 4:
+
+    elif opcao == 5:
+
+    elif opcao != 6:

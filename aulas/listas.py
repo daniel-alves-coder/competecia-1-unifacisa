@@ -72,5 +72,8 @@ print(marcasAntigas) #aqui eu mostro as marcas que existiam antes da mudança
 
 #========================================================
 
+#existe uma forma de criar uma lista que não é possivel alterar
+#O nome dessa lista é tupla e ela é criada, trocando um [] por ()
 
-
+lista = ["isso é uma lista"]
+lista = ("isso é uma tupla", "não pode ser isserido nem removido novos dados")
