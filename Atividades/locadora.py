@@ -15,7 +15,7 @@ while opcao != 4:
         print(numeros, "-", item)
         numeros = numeros + 1
     numeros = 1
-    
+
     print("------------------")
     opcao = int(input("Digite a Opção: "))
     print("------------------")
