@@ -34,6 +34,12 @@ frutas.pop(0) #pop = remoção pela posição
 frutas.remove("jaca") #remove = remoção pelo valor
 #apagou o item com valor "jaca"
 
+notas = [10,9,8]
+somaNota = sum(notas) #o metodo sum faz a soma de todos os elementos da lista
+
+maiorNota = max(notas) #max pega o maior valor da lista
+menorNota= min(notas) #min pega o menor valor da lista
+
 #=========MANEIRA-LEGAL-DE-USAR=========
 filmes = ["Titanic"]
 
