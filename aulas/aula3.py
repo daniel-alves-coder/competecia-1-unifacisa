@@ -7,6 +7,8 @@ outra forma de calcular %
 #Jornada do Dev
 
 #como formatar as strings com f-string
+nome = "daniel"
+print(f"meu nome é {nome}") #forma de colocar a variavel dentro do print
 
 print(f'\t a minha \"nota\" \n foi {9.49899: .2f}')
 #caracteres de escape:

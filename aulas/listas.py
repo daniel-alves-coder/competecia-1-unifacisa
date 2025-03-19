@@ -52,7 +52,7 @@ filmeRemover = int(input("escolha a fruta a ser removida: "))
 filmes.pop(filmeRemover - 1)
 #=======================================
 
-print(len(filmes))
+print(len(filmes)) #LEN()
 #usando o len com lista ele não mostra a quantidade de caractere e sim a quantidade de itens
 
 #para imprimir uma lista temos que usar for
