@@ -1,5 +1,3 @@
-from xml.dom.minidom import ProcessingInstruction
-
 manifestacoes = [ ]
 opcao = 0
 barra = "-" * 50
@@ -37,6 +35,8 @@ while opcao != 5:
     elif opcao == 3: #Exibir quantidade de manifestações
         if len(manifestacoes) == 0:
             print("Nenhuma manifestação até o momento!")
+        elif len(manifestacoes) == 1:
+            print("Até o momento, o sistema possui somente 1 manifestação")
         else:
             print("Até o momento, o sistema possui exatas " + str(len(manifestacoes)) + " manifestações")
 
