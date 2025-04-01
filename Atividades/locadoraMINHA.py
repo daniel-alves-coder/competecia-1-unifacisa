@@ -10,7 +10,7 @@ def verFilmes(numeros):
     numeros
 
 while opcao != 4:
-    print("MENU - LOCADORA\n------------------")
+    print("------------------\nMENU - LOCADORA\n------------------")
     for item in menu:
         print(numeros, "-", item)
         numeros = numeros + 1
